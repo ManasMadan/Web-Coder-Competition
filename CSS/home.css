@@ -1,0 +1,88 @@
+.animation {
+    background-image: url("../Images/giphy.webp");
+    background-size: cover;
+    color: transparent;
+    height: 60vh;
+    /* Defines Background area */
+    background-clip: text;
+    /* Mozilla */
+    -moz-background-clip: text;
+    /* Google Chrome ,Safari */
+    -webkit-background-clip: text;
+
+    text-transform: uppercase;
+    font-size: 120px;
+    line-height: 0.75;
+    text-align: center;
+    line-height: 200px;
+    margin: 5px 0px;
+    padding-top: 0px;
+}
+
+#animate1 {
+    display: none;
+}
+
+#text {
+    text-align: center;
+    margin: 80px auto;
+    font-size: 3rem;
+    color: #34495e;
+    text-decoration: underline;
+}
+
+@media (max-width: 925px) {
+    #animate {
+        display: none;
+    }
+    #animate1 {
+        display: block;
+    }
+}
+
+#section2 div {
+    display: flex;
+}
+@media (max-width: 850px) {
+    #section2 div {
+        flex-wrap: wrap;
+    }
+}
+
+#section2 h1 {
+    width: fit-content;
+    margin: 20px auto;
+    font-weight: bold;
+    text-decoration: underline;
+    color: crimson;
+    font-size: 200%;
+    padding-top: 64px;
+}
+
+#section2 div span {
+    display: block;
+    margin: 20px 10px;
+    width: 80vw;
+    border: 2px solid black;
+    padding: 40px 20px;
+    border-radius: 30px;
+    background-color: #ffedbc;
+}
+
+#section2 div span h3 {
+    text-align: center;
+}
+
+#section2 div span i {
+    position: relative;
+    left: 38%;
+    margin-bottom: 10px;
+}
+#section2 div span p {
+    text-align: justify;
+    line-height: 35px;
+}
+
+#ourvision {
+    margin-right: 0em;
+}

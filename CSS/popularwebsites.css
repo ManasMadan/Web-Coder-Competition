@@ -1,0 +1,68 @@
+#websites{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.icons div a img{
+    width: 60%;
+    margin: 100px auto;
+    margin-left: 0px;
+    max-width: 300px;
+    min-width: 180px;
+    padding-top: 20px;
+}
+.icons{
+    width: 10px;
+}
+.icons div{
+    display: flex;
+    width: 80vw;
+}
+
+@media (max-width:700px){
+    .icons div{
+        flex-wrap: wrap;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 20px;
+        text-align: left;
+        position: relative;
+        right: 30px;
+    }
+    .icons div a img{
+        margin: 0;
+    }
+}
+
+@media (max-width:700px){
+    .icons div{
+        position: relative;
+        right: 130px;
+        
+    }
+}
+
+.icons div p{
+    text-align: justify;
+    padding-top: 80px;
+    padding-left: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+#chose{
+    margin-left: 50px;
+}
+
+#chose span{
+    text-decoration: underline;
+    text-decoration-color: #004181;
+}
+
+#chosepoints{
+    margin-left: 20%;
+    line-height: 50px;
+    list-style: disc;
+}

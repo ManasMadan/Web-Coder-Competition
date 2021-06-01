@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#statement{
+    margin: 50px 1.2%;
+    line-height: 8vh;
+    padding: 20px;
+    background-color: #ffedbc;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+#essentials{
+    text-align: center;
+}
+
+@media (max-width:404px){
+    #essentials{
+        font-size: 25px;
+    }
+}
+
+#essentials span{
+    text-decoration: underline;
+    text-decoration-color: #34495e;
+}
+
+#things{
+    display: flex;
+    list-style: none;
+    padding:8%;
+    line-height: 150px;
+    font-size: 2rem;
+}
+
+#things li{
+    margin: 0px 20px;
+}
+
+.product_type{
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0px;
+    background-image: url("../Images/giphy.webp");
+	background-size: cover;
+    color: transparent;
+    /* Defines Background area */
+    background-clip: text;
+    /* Mozilla */
+    -moz-background-clip: text;
+    /* Google Chrome ,Safari */
+    -webkit-background-clip: text;
+}
+
+
+/* Sanitizers */
+
+.howsanitizers{
+    margin: 0px 3%;
+    line-height: 40px;
+    font-size: 1.7rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0px ;
+    justify-content: center;
+}
+.container .card{
+    margin: 2%;
+    padding: 20px;
+    padding-top: 0px;
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 250px;
+    transition:0.6s;
+}
+@media(min-width:1024px){
+
+    .card:hover{
+        transform: scale(1.1);
+        color: #ff0000;
+    }
+    
+}
+
+@media(min-width:1200px){
+
+    .card:hover{
+        transform: scale(1.2);
+        color: #ff0000;
+    }
+    
+}
+.container .card a{
+    color: #34495e;
+    text-decoration: none;
+}
+.container .card a .image img{
+    width: 12em;
+    position: relative;
+    left: 15%;
+}
+
+.container .card a .name{
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+
+
+.container .card .specs span{
+    display: block;
+    position: relative;
+    left: 20%;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#precautions h3{
+    margin-left: 3%;
+}
+
+#precautions ul{
+    margin-left: 7%;
+    margin-bottom: 100px;
+    line-height: 30px;
+    list-style: circle;
+}
+
